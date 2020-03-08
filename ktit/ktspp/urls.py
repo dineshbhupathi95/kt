@@ -3,5 +3,5 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    url('home/', views.homepage,name="home"),
+    url('^$', views.homepage,name="home"),
 ]
